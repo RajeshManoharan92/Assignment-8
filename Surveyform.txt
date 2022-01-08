@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body style=" padding: 30px">
+    <div style="border: 2px solid black; padding: 20px;">
+    <div class="container">
+        <div class="row" style="display: inline;">
+            <h4 style="display: inline;font-weight: bold;">Name<span style="color: red;">*</span></h4>
+        </div>
+        <div class="row justify-content-start">
+            <div class="col-4"> <input type="text" style="width: 100%;"><span>First</span></div>
+            <div class="col-4"> <input type="text" style="width: 100%;"><span>Last</span></div>
+        </div>
+    </div> <br>
+    <div class="container">
+        <div class="row" style="display: inline;">
+            <h4 style="display: inline;font-weight: bold;">Email<span style="color: red;">*</span></h4>
+        </div>
+        <div class="row justify-content-start">
+            <div class="col-8"> <input type="text" style="width: 100%;"></div>
+
+        </div>
+    </div> <br>
+    <div class="container">
+        <div class="row" style="display: inline;">
+            <h4 style="display: inline;font-weight: bold;">Your Experience <span style="color: red;">*</span> </h4>
+        </div> <br>
+            <i class='fa fa-star' style="color: orange;font-size: 25px; "></i>
+    <i class='fa fa-star' style="color: orange;font-size: 25px;"></i>
+    <i class='fa fa-star' style="color: orange;font-size: 25px;"></i>
+    <i class='fa fa-star' style="color: orange;font-size: 25px;"></i>
+    <i class='fa fa-star' style="color: orange;font-size: 25px;"></i>
+    </div> <br>
+    <div class="container">
+        <div class="row" style="display: inline;">
+            <h4 style="display: inline;">Overall, how would you rate you experience with us?
+            </h4>
+        </div> <br></br>
+
+        <div class="container">
+            <div class="row" style="display: inline;">
+                <h4 style="display: inline;font-weight: bold;">How Statisfied are you with <span
+                        style="color: red;">*</span> </h4>
+            </div> <br></br>
+            <div class="container">
+                <div class="row" style="text-align: center;">
+                    <div class="col-2"></div>
+                    <div class="col-2">Very Unstatisfied</div>
+                    <div class="col-2">Unstatisfied</div>
+                    <div class="col-2">Neutral</div>
+                    <div class="col-2">Statisfied</div>
+                    <div class="col-2">Very Statisfied</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row align-items-center" style="background-color: lightgrey; text-align: center;">
+                <div class="col-2" style="text-align: start;">Purchase</div>
+                <div class="col-2"><input type="radio"></div>
+                <div class="col-2"><input type="radio"></div>
+                <div class="col-2"><input type="radio"></div>
+                <div class="col-2"><input type="radio"></div>
+                <div class="col-2"><input type="radio"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center" style=" text-align: center;">
+                <div class="col-2" style="text-align: start";>Service</div>
+                <div class="col-2"><input type="radio"></div>
+                <div class="col-2"><input type="radio"></div>
+                <div class="col-2"><input type="radio"></div>
+                <div class="col-2"><input type="radio"></div>
+                <div class="col-2"><input type="radio"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center" style="background-color: lightgrey; text-align: center;">
+                <div class="col-2" style="text-align: start">Company Overall</div>
+                <div class="col-2"><input type="radio"></div>
+                <div class="col-2"><input type="radio"></div>
+                <div class="col-2"><input type="radio"></div>
+                <div class="col-2"><input type="radio"></div>
+                <div class="col-2"><input type="radio"></div>
+            </div>
+        </div> <br>
+        <div class="container">
+            <div class="row" style="display: inline;">
+                <h4 style="display: inline;font-weight: bold;">How Likely are you to <span style="color: red;">*</span></h4>
+            </div> <br></br>
+            <div class="row" style="text-align: center;">
+                <div class="col-2"></div>
+                <div class="col-2">Very Unlikely</div>
+                <div class="col-2">Unlikely</div>
+                <div class="col-2">Neutral</div>
+                <div class="col-2">likely</div>
+                <div class="col-2">Very likely</div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center" style="background-color: lightgrey; text-align: center;">
+                <div class="col-2"style="text-align: start">Buy from us again</div>
+                <div class="col-2"><input type="radio"></div>
+                <div class="col-2"><input type="radio"></div>
+                <div class="col-2"><input type="radio"></div>
+                <div class="col-2"><input type="radio"></div>
+                <div class="col-2"><input type="radio"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center" style=" text-align: center;">
+                <div class="col-2"style="text-align: start">Recommend our products to others</div>
+                <div class="col-2"><input type="radio"></div>
+                <div class="col-2"><input type="radio"></div>
+                <div class="col-2"><input type="radio"></div>
+                <div class="col-2"><input type="radio"></div>
+                <div class="col-2"><input type="radio"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center" style="background-color: lightgrey; text-align: center;">
+                <div class="col-2"style="text-align: start">Recommend our company to others</div>
+                <div class="col-2"><input type="radio"></div>
+                <div class="col-2"><input type="radio"></div>
+                <div class="col-2"><input type="radio"></div>
+                <div class="col-2"><input type="radio"></div>
+                <div class="col-2"><input type="radio"></div>
+            </div>
+        </div> <br>
+        <div class="container">
+            <div class="row" style="display: inline;">
+                <h4 style="display: inline;font-weight: bold;">Additional comments or suggestions<span style="color: red;">*</span></h4>
+            </div>
+            <div class="row"><input type="text" style="padding-top: 10%;"></div>
+        </div> <br>
+        <div class="container">
+            <div class="row" style="display: inline;"><button type="submit" style="width: 10%;">submit</button></div>
+        </div>
+    </div>
+   
+</body>
+
+</html>
